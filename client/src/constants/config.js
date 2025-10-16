@@ -1,4 +1,5 @@
-export const API_BASE = process.env.REACT_APP_GATEWAY_URL;
+export const API_BASE =
+  process.env.REACT_APP_GATEWAY_URL || "https://gateway-jmmp.onrender.com";
 
 export const FILTER_OPERATORS = ["=", "!=", ">", "<", ">=", "<="];
 
