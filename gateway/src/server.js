@@ -5,8 +5,6 @@ const { StatusCodes } = require("http-status-codes");
 const { PORT, PRODUCT_SERVICE, SEGMENT_SERVICE } = require("./config");
 
 const app = express();
-console.log(PRODUCT_SERVICE);
-console.log(SEGMENT_SERVICE);
 
 app.use(cors({ origin: true, credentials: true }));
 
