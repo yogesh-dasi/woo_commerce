@@ -18,7 +18,7 @@ router.post("/segments/evaluate", async (req, res) => {
 
     const conditions = parseConditions(rules);
 
-    const response = await axios.get(`${PRODUCT_SERVICE_URL}/products`);
+    const response = await axios.get(`${PRODUCT_SERVICE_URL}/api/products`);
     const productData = response.data;
 
     const products = Array.isArray(productData)
