@@ -1,5 +1,4 @@
-export const API_BASE =
-  process.env.REACT_APP_GATEWAY_URL || "http://localhost:3001";
+export const API_BASE = process.env.REACT_APP_GATEWAY_URL;
 
 export const FILTER_OPERATORS = ["=", "!=", ">", "<", ">=", "<="];
 
